@@ -10,5 +10,9 @@ template: '{"NAME":"Gosund KS-602S","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,158],"FLA
 link2: 
 ---
 
-This module has bi-color LED. In this template, green is assigned to follow the relay and red is the link light to show any MQTT or WiFi errors.  
+This module has bi-color LED. In this template, green is assigned to follow the relay and red is the link light to show any MQTT or WiFi errors.
+
+Alternatively, if you have trouble getting the green LED to work, use this template:
+
+template: '{"NAME":"Gosund KS-602S","GPIO":[17,0,57,0,0,0,0,0,0,0,21,0,0],"FLAG":0,"BASE":18}'
 
